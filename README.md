@@ -24,7 +24,7 @@ Don't worry they have a plan that is charge free.
     * Fill in your `X-RapidAPI-Key`
     * Fill in your `team identifier`
     
-    These two will be found [here](https://rapidapi.com/api-sports/api/API-FOOTBALL)
+    These two above will be found [here](https://rapidapi.com/api-sports/api/API-FOOTBALL)
     * Fill in the event name from your IFTTT app
     * Fill in your `IFTTT Key`. You can find it in `webhooks settings`
 

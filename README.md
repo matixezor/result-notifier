@@ -17,7 +17,7 @@ Don't worry they have a plan that is charge free.
       * Name your event
       * Click on the `that` button
       * Search for `notifications` service and select `Send a notification from the IFTTT app`
-      * Change the message to your liking! Use `{{Value1}}` and `{{Value2}}`. `Value1` will be the name of the competition and `Value2` will be `team1 score team2`
+      * Change the message to your liking! Use `{{Value1}}` and `{{Value2}}`. `Value1` will be the name of the competition and `Value2` will be `team1 score team2`, `Value3` will              be the information about goalscorers
     * Click on the `Finish` button 
 
 5. Edit the `configure.py` file. :

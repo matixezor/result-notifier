@@ -60,7 +60,7 @@ def get_match_result(url: str, headers: Dict[str, str], fixture_id: str) -> Dict
     goals = ''
     if response["goalsHomeTeam"] + response["goalsAwayTeam"] != 0:
         for event in response["events"]:
-            if event["type"] == "Goal":
+            if event["type"] == "Goal" and event["detail"] != "Missed Penalty":
                 time = event["elapsed"] + event["elapsed_plus"] if event["elapsed_plus"] else event["elapsed"]
                 goals += f"{time} - {event['player']}\n"
 

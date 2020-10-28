@@ -1,6 +1,10 @@
 # result-notifier
 This script uses [api-football](https://www.api-football.com) to get the data about matches. And to send you notifications it's using [IFTTT webhooks and notifications](https://ifttt.com).
 
+## Example Message
+![Imgur](https://i.imgur.com/fAL2gNq.jpg)
+
+## Setup
 To use this script you will need to do a few things first!
 1. Install [requests](https://pypi.org/project/requests/):
 
